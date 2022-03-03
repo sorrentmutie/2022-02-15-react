@@ -1,0 +1,1 @@
+export const Empty = () => <h3>Non ci sono prodotti</h3>
