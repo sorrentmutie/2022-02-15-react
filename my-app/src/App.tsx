@@ -2,22 +2,23 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+interface Person {
+  name: string,
+  surname: string,
+  age: number
+}
+
+
 function App() {
+  let person: Person | null =
+    { name: 'Mario', surname: 'Rossi', age: 50};
+  person = null;
+  let testo: string = person && person?.['name'] ?  person?.['name'] : "Non esiste";
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <h2>{testo}</h2>
       </header>
     </div>
   );
