@@ -18,6 +18,10 @@ const RenderMessage = (props: any) => {
   return props.products === 0 ? <Empty/> : <Products value = {props.products}/>
 }
 
+export const Products2: React.FC<ProductProps> = (props) => 
+  <div>{props.value} prodotti FC</div>
+
+
 
 function App() {
   let person: Person | null =
@@ -30,6 +34,7 @@ function App() {
       <header className="App-header">
        <h2>{testo}</h2>
        <RenderMessage products={products}/>
+       <Products2 value={products}/>
       </header>
     </div>
   );
