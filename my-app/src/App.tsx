@@ -9,7 +9,7 @@ import { Person } from './models/person';
 function App() {
   let person: Person | null =
     { name: 'Mario', surname: 'Rossi', age: 50};
-  person = null;
+  // person = null;
   const products = 5;
   const gender: string = 'F';
   const wrapperClass: string = 
