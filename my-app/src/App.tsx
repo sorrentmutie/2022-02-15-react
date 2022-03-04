@@ -10,6 +10,7 @@ import { HomePage } from './components/HomePage';
 import { AboutPage } from './components/AboutPage';
 import { PricingPage } from './components/PricingPage';
 import { FeaturesPage } from './components/FeaturesPage';
+import { RandomUsersPage } from './components/RandomUsersPage';
 
 function App() {
   // const gender: string = 'F';
@@ -38,6 +39,7 @@ function App() {
           <Route path="/about" element= { <AboutPage/>}></Route>
           <Route path="/pricing" element= { <PricingPage/>}></Route>
           <Route path="/features" element= { <FeaturesPage/>}></Route>
+          <Route path="/random-users" element= { <RandomUsersPage/>}></Route>
         </Routes>
       </BrowserRouter>
 

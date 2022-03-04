@@ -43,4 +43,9 @@
   to {
     transform: rotate(360deg);
   }
+
+}
+
+.margine-top {
+  margin-top: 10px
 }
