@@ -1,0 +1,1 @@
+export const PricingPage = () => <h3> Pricing Page</h3>
