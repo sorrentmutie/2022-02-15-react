@@ -39,7 +39,7 @@ function App() {
           <Route path="/about" element= { <AboutPage/>}></Route>
           <Route path="/pricing" element= { <PricingPage/>}></Route>
           <Route path="/features" element= { <FeaturesPage/>}></Route>
-          <Route path="/random-users" element= { <RandomUsersPage/>}></Route>
+          <Route path="/randomusers" element= { <RandomUsersPage/>}></Route>
         </Routes>
       </BrowserRouter>
 
