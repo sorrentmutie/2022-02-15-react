@@ -6,11 +6,11 @@ import { Menu } from './components/Menu';
 import { MenuItem } from './models/MenuItem';
 import axios from 'axios';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { HomePage } from './components/HomePage';
-import { AboutPage } from './components/AboutPage';
-import { PricingPage } from './components/PricingPage';
-import { FeaturesPage } from './components/FeaturesPage';
-import { RandomUsersPage } from './components/RandomUsersPage';
+import { HomePage } from './pages/Home/HomePage';
+import { AboutPage } from './pages/About/AboutPage';
+import { PricingPage } from './pages/Pricing/PricingPage';
+import { FeaturesPage } from './pages/Features/FeaturesPage';
+import { RandomUsersPage } from './pages/RandomUserPage/RandomUsersPage';
 
 function App() {
   // const gender: string = 'F';

@@ -1,1 +1,0 @@
-export const FeaturesPage = () => <h3>Features Page</h3>

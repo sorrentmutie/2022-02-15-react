@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
-import { RandomUser, Result } from "../models/randomUser";
+import { RandomUser, Result } from "../../models/randomUser";
 import axios from "axios";
 import { RandomUserCard } from "./RandomUserCard";
+
 
 export const RandomUsersPage = () => {
  const [randomUsers, setRandomUsers] = useState<Result[]>([]);

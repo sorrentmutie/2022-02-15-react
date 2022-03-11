@@ -1,4 +1,5 @@
-import { IResult } from "../models/randomUser";
+import { IResult } from "../../models/randomUser";
+
 
 
 export const RandomUserCard: React.FC<IResult> = (props) => {
